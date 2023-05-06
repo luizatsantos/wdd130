@@ -9,6 +9,11 @@ nav {
 
 }
 
+#active {
+    background-color: white;
+    color: steelblue;
+}
+
 a {
     color: white;
     margin: 40px;
@@ -26,8 +31,10 @@ img {
 
 }
 
-p {
-    padding: 10px;
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+
 
 }
 
