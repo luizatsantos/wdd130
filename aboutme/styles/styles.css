@@ -1,7 +1,8 @@
 nav, footer {
     background-color: steelblue;
     color: white;
-    padding: 10px;
+    padding: 25px;
+    text-align: center;
 }
 
 a:hover {
@@ -12,18 +13,21 @@ a:hover {
 #active {
     background-color: white;
     color: steelblue;
+
 }
 
 a {
     color: white;
     margin: 40px;
     font-size: 1.5em;
+    padding: 25px;
 
 }
 
 h1{
     color: steelblue;
     text-align: center;
+    margin: 50px 0;
 
 }
 
@@ -46,7 +50,13 @@ img {
 footer p {
     font-size: 20px;
     margin: 20px auto;
-    text-align: center
+    text-align: center;
+    padding: 25px; 
+}
+
+body {
+    margin: 0
+
 }
 
 /*footer {

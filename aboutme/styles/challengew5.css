@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+
+#circles {
+    width: 100%;
+    border-radius: 0%;
+    border: 0;
+
+}
+
+img {
+    width: 15%;
+    border-radius: 50%;
+    border: 15px solid rgb(66, 62, 62);
+    align-content: center;
+
+}
+
+.desk {
+    display: inline;
+    margin: 100px 50px;
+
+}
+
+.graphic {
+    display: inline;
+    margin: 100px 50px;
+}
+
+.person {
+    display: inline;
+    margin: 100px 50px;
+}
+
+main{
+    background-color: grey;
+    text-align: center;
+    margin: 50px 10px;
+
+
+}
+
+
+
+
