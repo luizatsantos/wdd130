@@ -19,7 +19,7 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --paragraph-background-color: #640000  ;
   --nav-link-color: #396E94;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
@@ -42,7 +42,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  color: #04aba7;
 }
 h2 {
   text-align: center;
@@ -50,13 +50,13 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: #4b4b4b;
 }
 header {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: #04aba7;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -64,7 +64,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  color: #4b4b4b;
   padding: 1em;
 }
 .colors {
@@ -100,7 +100,7 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #04aba7;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -118,7 +118,7 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: #4b4b4b;
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
