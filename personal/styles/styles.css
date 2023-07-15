@@ -97,8 +97,6 @@ img{
     grid-template-columns: 1fr 2fr;
     margin-top: 180px;
 
-
-
 }
 
 #last-image {
@@ -137,7 +135,6 @@ footer {
     align-items: center;
     font-family: "Josefin Sans", Verdana, sans-serif;
     
-
 }
 
 a{
@@ -181,7 +178,6 @@ footer a:hover {
     margin-left: 60px;
     font-family: "Josefin Sans", Verdana, sans-serif;
     color: #4b4b4b;
-
 
 }
 
