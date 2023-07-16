@@ -176,7 +176,7 @@ footer a:hover {
     padding-left: 30px;
     padding-top: 75px;
     margin-left: 60px;
-    font-family: "Josefin Sans", Verdana, sans-serif;
+    font-family: "Pathway Extreme", Calibri , serif;
     color: #4b4b4b;
 
 }
@@ -184,6 +184,7 @@ footer a:hover {
 b {
     font-size: 25px;
     color:#04aba7;
+    font-family: "Josefin Sans", Verdana, sans-serif;
 
 }
 
@@ -210,6 +211,80 @@ b {
     color: #640000;
 
 }
+
+#image-players {
+
+    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    width: 70%;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+
+}
+
+#center-paragraph {
+
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #4b4b4b;
+    font-family: "Pathway Extreme", Calibri , serif;
+
+}
+
+#final {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr
+
+}
+
+#right-image {
+
+    grid-column: 3/3;
+    grid-row: 1/3;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-left: 40px;
+
+}
+
+#left-paragraph {
+
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 40px;
+    margin-left: 50px;
+    padding-bottom: 170px;
+    font-family: "Pathway Extreme", Calibri , serif;
+    color: #4b4b4b;
+
+}
+
+#last-paragraph {
+
+    grid-column: 3/3;
+    grid-row: 3/3;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 450px;
+    color: #640000;
+    background-color: #04aba7;
+    padding: 20px;
+    font-size: 26px;
+    border-radius: 5px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+    font-family: "Josefin Sans", Verdana, sans-serif;
+
+
+
+}
+
 
 
 
